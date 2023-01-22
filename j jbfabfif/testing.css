@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+}
+#body-header{
+ height:65vh;
+ opacity:0.8;
+ background-image: url(https://images.unsplash.com/photo-1543128639-4cb7e6eeef1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwc2V0dXB8ZW58MHx8MHx8&w=1000&q=80);
+ background-position: center;
+ background-size:cover;
+}
+
+.horlist{
+
+    list-style: none;
+    padding-left: 0px;
+}
+#nav li{
+   
+    display: inline-block;
+    margin:0px 8px 0px 8px;
+  
+}
+.top-menu li{
+    transition:color 0.5s;
+}
+.top-menu li a:hover{
+color:lightgrey;
+border-bottom: 2px solid lightgray;
+}
+.horlist li a {
+    color:white;
+     text-decoration: none; 
+   font-size: 1.5rem;
+   font-weight: 400;
+   padding:0px;
+   margin:10px;
+}
+.text-align{
+    text-align: center;
+}
+.myname{
+    font-style:oblique;
+    text-align: center;
+    color:white;
+ font-size: 4.5rem;
+ padding-top: 100px;
+margin: 30px;
+ letter-spacing: 4px;
+}
+.social-icons{
+    text-align: center;
+   
+  
+}
+.social-icons li {
+   
+    display: inline-block;
+}
+.social-icons li a i{
+    padding: 5px;
+  color:white;
+ border-radius: 10%;
+
+}
+.social-icons li a i:hover{
+   box-shadow: 0px 0px 6px 6px rgba(230 , 196 ,196 ,0.2);
+  
+  
+  }
+  
+   #about{
+/* height: auto;
+width:100%; */
+position: relative;
+  } 
+  #my-pic{
+    margin-left:auto;
+    margin-right:auto;
+height:15rem;
+width:15rem;
+margin-top:-20vh;
+  }
+  #my-pic img{
+    display: block;
+    height:100%;
+width:100%;
+    border-radius: 50%;
+    border:4px double white;
+
+}
+#intro {
+
+    width:70%;
+font-size: 1.4rem;
+color:black;
+}
+#main2{
+    margin-top:20rem;
+    height: 30rem;
+    background-color:#f7eeff;
+}
+
+#heading li{
+    display: inline-block;
+}
+#heading {
+    text-align: center;
+    padding:40px;
+}
+#heading li i{
+padding:10px;
+font-size: 2.45rem;
+}
+#heading li h1{
+    font-size: 2.85rem;
+    letter-spacing: 2.5px;
+    }
+
+#mycontent {
+  
+  
+    width:90%;
+    text-align: center; 
+    font-size: 1.7rem;
+ display: inline-block;
+  text-decoration: none;
+    color:black;
+    font-weight: 400;
+}
+#text-box{
+   margin-left: 10vw;
+  font-family: cursive;
+}
+
+
+ #col2{
+    margin-top:13vh;
+ }           
+#colorpython{
+    border-radius: 40px;
+    margin-left: 2vw;
+    display: inline-block;
+    height: 4rem;
+    width: 20rem;
+    /* background-image:linear-gradient(
+        to right,
+       red 0%,
+    red 50%, 
+    blue 50%,
+    blue 50%
+    ); */
+    background-image: linear-gradient(to right , #0a675f  0% , #0a675f  90% , #bdb6bf 10% , #bdb6bf 10%);
+    }
+    #colorpython p{
+        
+    margin-top: 10px;
+    letter-spacing: 3px;
+    padding-left: 30px;
+        font-size: 40px;
+        font-weight: 30;
+        color:white;
+
+    }
+    #colorJS{
+        border-radius: 40px;
+        margin-left: 10vw;
+        display: inline-block;
+        height: 4rem;
+        width: 20rem; 
+        background-image: linear-gradient(to right , #23458f 0% , #23458f 50% , #bdb6bf 50% , #bdb6bf 50%);
+    }
+    #colorJS p{
+       
+        margin-top: 10px;
+        letter-spacing: 4px;
+        padding-left: 40px;
+            font-size: 40px;
+            font-weight: 100;
+            color:white;
+    
+        }
+        #colorAND{
+            border-radius: 40px;
+            margin-left: 11vw;
+            display: inline-block;
+            height: 4rem;
+            width: 20rem; 
+            background-image: linear-gradient(to right , #e04223 0% , #e04223 65% , #bdb6bf 35% , #bdb6bf 35%);
+        }
+        #colorAND p{
+           
+            margin-top: 10px;
+            letter-spacing: 4px;
+            padding-left: 40px;
+                font-size: 40px;
+                font-weight: 100;
+                color:white;
+        
+            }
+            
+#main2 ul li{
+    border-radius: 40px;
+    margin-left: 2vw;
+    display: inline-block;
+    height: 4rem;
+    width: 20rem;
+    background-image: linear-gradient(to right , #23458f 0% , #23458f 75% , #bdb6bf 25% , #bdb6bf 25%);
+}
+#main2 ul li p{
+
+        margin-top: 10px;
+        letter-spacing: 4px;
+        padding-left: 40px;
+            font-size: 40px;
+            font-weight: 100;
+            color:white;
+}
